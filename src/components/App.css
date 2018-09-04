@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.headerSignIn {
+  text-align: center;
+}
+
+.subHeaderSignIn {
+  text-align: center;
+  color: grey;
+}
+
+#headerSignInDiv {
+  background: rgb(249, 249, 249);
+  width:75%;
+  margin:auto;
+  border: 1px solid;
+}
+
+.dropDownSignIn {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.buttonSignIn {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#signInMenu {
+  width: 75%;
+  margin: auto;
+  border: 1px solid;
+  padding-bottom: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    background-color: #333333;
+    border: none;
+    font-size: 16px;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#questionTableDiv {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.questionTableButton {
+  width:50%;
+  display: inline;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.card {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.optionCard {
+  text-align: center;
+}
+
+.cardButton {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+.newQuestionDiv {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.newQuestionOr {
+  width:100%;
+  text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.leaderBoardCard {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid;
+  padding-left:15px;
+}
+
+.leaderBoardCardHeader {
+  text-align: center;
+}
+
+.leaderImage {
+  display: block;
+  margin: 0 auto;
+}
+
+.navAvatar {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.leaderBoardHeader {
+  text-align: center;
+}
+
+.answeredPollDiv {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.answeredPollHeader {
+  text-align: center;
+}
+
+.chosenCard {
+  border: 1px solid;
+  padding: 25px;
+}
+
+.choseAvatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.choseHeader {
+  margin-bottom: 0px;
+}
+
+.unansweredPollDiv {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
