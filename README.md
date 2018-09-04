@@ -4,7 +4,7 @@
 This is a simple web app that keeps track of a list of users and questions from a database. The user can login and answer questions, create new questions, check their previous answers and the answers of everyone else, and see a leaderboard. All mutated state is managed by redux.
 
 ## File Structure
-###Components
+##Components
 App.js - root of the app <br/>
 AnsweredPoll.js - Represents an already answered poll object <br/>
 Card.js - Represents a card in the home page for all the different polls <br/>
@@ -19,17 +19,17 @@ QuestionTable.js - Contains all the ```Poll``` objects and manages showing the u
 SignIn.js - Represents the Sign In page<br/>
 UnansweredPoll - Represents a poll that isn't answered yet <br/>
 <br/>
-###Actions
+##Actions
 authedUser - creates the action for set authed user <br/>
 question - creates the action for receiving questions <br/>
 shared - creates and handles the action for retrieving the initial data, creating new questions, and answering questions as all these actions require changes on both slices of user and question data<br/>
 user - creates the action for the receiving users <br/>
 <br/>
-###MiddleWare
+##MiddleWare
 index - applies the middleware to the redux store
 logger - general logger middleware for debugging purposes
 <br/>
-###Reducers
+##Reducers
 authedUser - reducer for the authedUser action<br/>
 index - applies the reducers as well as loading bar to the redux store
 question - reducer for the question actions <br/>
